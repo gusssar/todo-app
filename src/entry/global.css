@@ -1,0 +1,24 @@
+textarea{
+    width:250px;
+    max-width: 250px;
+    min-width: 250px;
+    border-radius: 3px;
+}
+
+p{
+    margin: 0px;
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    width: 250px;
+}
+
+button{
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-top:3px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 3px;
+}

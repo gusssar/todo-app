@@ -1,0 +1,12 @@
+.remove{
+    background: #eb5a46;
+}
+
+.card{
+    min-height: 70px;
+    width: 250px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

@@ -1,0 +1,14 @@
+.card{
+    min-height: 70px;
+    width: 250px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.add{
+    background: #5aac44;
+}
