@@ -19,8 +19,8 @@ export default class FormContainer extends  Component {
 
     render(){
         return  <div  className={styles.card} ref={c=>c&&(this.form=c)}>
-            <textarea ref={c=>c&&(this.textarea=c)}/>
-            <button className={styles.add} onClick={e=>this.onSubmit(e)}>ADD</button>
+            <textarea placeholder={'Ввести заголовок для этой карточки'} ref={c=>c&&(this.textarea=c)}/>
+            <button className={styles.add} onClick={e=>this.onSubmit(e)}>Добавить карточку</button>
         </div>;
     }
 }

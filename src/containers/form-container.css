@@ -1,14 +1,29 @@
 .card{
     min-height: 70px;
-    width: 250px;
+    width: 256px;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+textarea{
+    border: 0;
+    font-family: Arial;
+    min-height: 72px;
+    margin-bottom: 8px;
+    width: 240px !important;
+    max-width: 240px !important;
+    min-width: 240px !important;
+    padding: 10px 8px;
+}
 
 
 .add{
     background: #5aac44;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 8px;
 }
